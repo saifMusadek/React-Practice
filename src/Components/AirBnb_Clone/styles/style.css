@@ -16,6 +16,13 @@ section{
 
 }
 
+.grey{
+    color: grey
+}
+.bold{
+    font-weight: bold;
+}
+
 .hero--photo{
     max-width: 400px;
     
@@ -28,4 +35,37 @@ section{
 
 .hero--text{
     margin-top: 0;
+}
+.cards-list {
+    display: flex;
+  
+   
+}
+.card{
+   width: 175px;
+   height: 120px;
+   padding: 50px;
+   flex: 0 0 auto;         /* ADD */
+   display: flex;          /* ADD */
+   flex-direction: column; /* ADD */
+
+}
+
+.card--image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.star--image{
+    width: 24px; /* Set the desired width */
+    height: 14px; /* Set the desired height */
+    object-fit: cover;
+}
+
+.card--stats{
+    display:flex
+}
+
+.card--price {
+    margin-top: auto;
 }

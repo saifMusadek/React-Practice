@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; /* matte black background */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .circle {
+    background-color: #fff; /* white circle */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* optional: add a subtle shadow */
+    font-size: 36px;
+    color: #000; /* black number color */
+  }
+  
+  
+  
+  .buttons {
+    display: flex;
+  }
+  
+  button {
+    background-color: #fff; /* white button */
+    color: #000; /* black button text color */
+    font-size: 24px;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd; /* light gray on hover */
+  }
+  
+  .minus{
+    
+  }
